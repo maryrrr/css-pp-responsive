@@ -1,0 +1,66 @@
+*{
+    margin: 0.2rem;
+    box-sizing: content-box;
+
+}
+body{
+    background-color: black;
+    color: azure;
+}
+.contenedor{
+    width:100%;
+    height:100vh;
+    border: .5rem solid;
+    background-color: #15141b;
+}
+nav{
+    width: 40%;
+    height:auto;
+    background-color: rgb(92, 27, 191);
+
+}
+
+.hero{
+    width: 40%;
+    height:auto;
+    background-color: red;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.conten_izq{
+    width:20%;
+    height: auto;
+    margin-left: 55px;
+    background-color: rgb(14, 125, 75);
+    float: left;
+}
+.sidebar{
+    width: 10%;
+    height: 39vh;
+    background-color: rgb(47, 47, 209);
+    float: left;
+}
+.div{
+    width: 40%;
+    height: 10vh;
+    background-color: grey;
+    bottom: 9.55rem;
+    position: absolute;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }

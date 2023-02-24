@@ -1,0 +1,107 @@
+*{
+    margin: 0.2rem;
+
+
+}
+body{
+    width:300vh;
+    height: auto;
+    padding: 0.6rem;
+}
+.header_norm{
+    background-color: rgba(12, 1, 1, 0.844);
+}
+.header_norm h1{
+    padding: 2.5rem;
+}
+.caja1{
+    color:white;
+    background-color: black;
+}
+.div{
+    width: 200vh;
+    padding: 1.5rem;
+}
+.div::after{
+    display: block;
+    clear: both;
+    content: "";
+
+}
+[class*="col-"] {
+    display: flex;
+    /*justify-content: center;*/
+    padding: 15px;
+  }
+
+
+/*.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}*/
+
+/*For Tablets*/
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+
+
+
+
+header{
+    width: 99%;
+    height: 10vh;
+    background-color: rgb(98, 191, 203);
+
+}
+nav{
+    width: 99%;
+    height: auto;
+    background-color: rgb(79, 158, 214);
+}
+main{
+    width: 99%;
+    height: auto;
+    background-color: rgb(158, 18, 18);
+}
+section{
+    width: 99%;
+    height: auto;
+    background-color: rgb(2, 63, 38);
+}
+aside{
+    width: 99%;
+    height: auto;
+    background-color: rgb(205, 32, 176);
+}
+footer{
+    width: 99%;
+    height:auto;
+    background-color: rgb(50, 51, 51);
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile tablets:*/
+    [class*="col-s-"] {
+      width: 100%;
+    }
+}
+
+
